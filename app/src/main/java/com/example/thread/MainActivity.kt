@@ -56,30 +56,5 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 status = false
             }
         }
-
-
-//        if (bgthread == null || bgthread?.state == Thread.State.TERMINATED) {
-//            val runnable = Runnable {
-//                try {
-//                    for (i in 0..10) {
-//                        // Simulating something timeconsuming
-//                        Thread.sleep(500) // in milisecond
-//                        progress.post {
-//                            text.text = "Updating $i/10"
-//                            progress.progress = i
-//                        }
-//                    }
-//                } catch (e: InterruptedException) {
-//                    e.printStackTrace()
-//                }
-//            }
-//            bgthread = Thread(runnable)
-//            bgthread?.start()
-//        }
-
     }
-
-
-
-
 }
